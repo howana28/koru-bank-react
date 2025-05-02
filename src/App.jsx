@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Login from './components/Login'; // mantém só uma vez
 import Chatbot from './components/Chatbot';
 
