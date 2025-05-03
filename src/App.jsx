@@ -1,4 +1,8 @@
+import React from 'react';
+import './index.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
+import Login from './components/Login';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -10,3 +14,5 @@ function App() {
     </HashRouter>
   );
 }
+
+export default App;
