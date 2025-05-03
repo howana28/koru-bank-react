@@ -1,11 +1,12 @@
-import React from 'react';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div style={{ textAlign: 'center', padding: '50px' }}>
-      <h1 style={{ color: 'green' }}>Olá, Koru Bank está funcionando!</h1>
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/chat" element={<Chatbot />} />
+      </Routes>
+    </HashRouter>
   );
 }
-
-export default App;
