@@ -1,11 +1,17 @@
 import React from 'react';
+import './index.css';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Login from './components/Login';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
-    <div style={{ padding: '2rem', fontSize: '24px' }}>
-      <h1>Hello, Koru Bank!</h1>
-      <p>Se você está vendo isso, o React está funcionando!</p>
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/chat" element={<Chatbot />} />
+      </Routes>
+    </HashRouter>
   );
 }
 
