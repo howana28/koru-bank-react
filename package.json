@@ -1,5 +1,5 @@
 {
-  "homepage": "https://howana28.github.io/koru-bank-react/",
+  "homepage": "https://howana28.github.io/koru-bank-cra/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
