@@ -1,7 +1,7 @@
 // src/components/Login.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Login.css';
+import './index.css';
 import imagem2 from '../assets/imagem2.png';
 
 export default function Login() {
